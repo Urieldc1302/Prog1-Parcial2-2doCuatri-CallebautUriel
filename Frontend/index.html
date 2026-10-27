@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talleres Optativos - Extensión Universitaria UCSE</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Talleres Optativos</h1>
+        <div id="estado-carga">Cargando talleres...</div>
+        <div id="mensaje-error" class="error oculto"></div>
+        <table id="tabla-talleres" class="oculto">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Cupos Disponibles</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla">
+            </tbody>
+        </table>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
